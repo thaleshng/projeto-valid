@@ -19,5 +19,5 @@ export const MenuList = () => {
 
 const Ul = styled.ul`
     display: flex;
-    gap: 30px;
+    gap: 40px;
 `

@@ -29,6 +29,8 @@ export const ListItemsButton = styled.button`
         border-bottom: 2px solid transparent;
         position: relative;
         z-index: 1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
     }
 
     & > span::before {
