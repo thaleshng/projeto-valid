@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import poppinsMedium from "../assets/fonts/Poppins-Medium.ttf"
 import interLight from "../assets/fonts/Inter-Light.ttf"
+import interMedium from "../assets/fonts/Inter-Medium.ttf"
 
 export const GlobalStyle = createGlobalStyle`
     @font-face {
@@ -11,6 +12,11 @@ export const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: 'Inter';
         src: local('Inter-Light'), url(${interLight}) format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Inter';
+        src: local('Inter-Medium'), url(${interMedium}) format('truetype');
     }
 
     * {

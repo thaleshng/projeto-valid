@@ -1,5 +1,6 @@
 import { Header } from "./components/header"
 import { SectionHero } from "./components/section-hero"
+import { SectionServices } from "./components/section-services/section-services"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <SectionHero />
+      <SectionServices />
     </>
   )
 }

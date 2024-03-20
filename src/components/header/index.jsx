@@ -21,7 +21,7 @@ const StyledHeader = styled.header`
     align-items: center;
     height: 80px;
     background: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     top: 0;
     left: 0;
