@@ -1,15 +1,10 @@
-import { Header } from "./components/header"
-import { SectionHero } from "./components/section-hero"
-import { SectionServices } from "./components/section-services/section-services"
-
+import { MainPage } from "./pages/main-page/main-page"
 
 function App() {
 
   return (
     <>
-      <Header />
-      <SectionHero />
-      <SectionServices />
+      <MainPage />
     </>
   )
 }
