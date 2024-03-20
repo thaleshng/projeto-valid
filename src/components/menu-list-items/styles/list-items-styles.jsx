@@ -23,6 +23,7 @@ export const ListItemsButton = styled.button`
     display: flex;
     gap: 5px;
     align-items: center;
+    position: relative;
 
     & > span {
         font-size: 14px;
@@ -58,5 +59,7 @@ export const ListItemsButton = styled.button`
     & > svg {
         width: 12px;
         height: 12px;
+        transform: rotate(${props => props.rotate}deg); /* Aplica a transformação */
+        transition: transform 0.5s ease;
     }
 `

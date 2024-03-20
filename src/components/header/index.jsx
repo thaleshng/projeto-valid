@@ -21,6 +21,11 @@ const StyledHeader = styled.header`
     align-items: center;
     height: 80px;
     background: transparent;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
 `
 
 const Nav = styled.nav`
@@ -28,4 +33,8 @@ const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     gap: 40px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 `
