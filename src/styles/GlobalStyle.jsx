@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import poppinsMedium from "../assets/fonts/Poppins-Medium.ttf"
+import poppinsSemiBold from "../assets/fonts/Poppins-SemiBold.ttf"
 import interLight from "../assets/fonts/Inter-Light.ttf"
 import interMedium from "../assets/fonts/Inter-Medium.ttf"
 import interRegular from "../assets/fonts/Inter-Regular.ttf"
@@ -8,6 +9,11 @@ export const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: 'Poppins';
         src: local('Poppins-Medium'), url(${poppinsMedium}) format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Poppins';
+        src: local('Poppins-SemiBold'), url(${poppinsSemiBold}) format('truetype');
     }
 
     @font-face {
